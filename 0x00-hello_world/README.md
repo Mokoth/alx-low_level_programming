@@ -19,3 +19,12 @@
 
 ### Task6:
 `5-printf.c`
+
+### Task7:
+`6-size.c`
+
+### Task8:
+`100-intel`
+
+### Task9:
+`101-quote.c`
