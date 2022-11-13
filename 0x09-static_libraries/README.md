@@ -7,7 +7,8 @@
 
 Create the static library `libmy.a` containing all the functions listed:
 
-`int _putchar(char c);
+`
+int _putchar(char c);
 int _islower(int c);
 int _isalpha(int c);
 int _abs(int n);
@@ -26,4 +27,8 @@ char *_memcpy(char *dest, char *src, unsigned int n);
 char *_strchr(char *s, char c);
 unsigned int _strspn(char *s, char *accept);
 char *_strpbrk(char *s, char *accept);
-char *_strstr(char *haystack, char *needle);`
+char *_strstr(char *haystack, char *needle);
+`
+> 1. Without libraries what have we? We have no past and no future
+
+Create a script called `create_static_lib.sh` that creates a static library called `liball.a` from all the `.c` files in the current directory
